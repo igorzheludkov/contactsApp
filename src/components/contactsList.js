@@ -9,7 +9,7 @@ export default function ContactsList({ contacts, removeContact }) {
           <Heading as='h4' size='lg'>
             {e.f} {e.l}
           </Heading>
-          <Text fontSize='xl'>{e.p}</Text>
+          <Text fontSize='xl'>+380{e.p}</Text>
           <Button value={i} onClick={removeContact}>
             Remove
           </Button>
